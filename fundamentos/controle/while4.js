@@ -7,4 +7,5 @@ while(controle <= 10) {
 
 console.log('Fim');
 
+
 //declaraçao. expressão. incremento; -> qtde determinada de repetições.
