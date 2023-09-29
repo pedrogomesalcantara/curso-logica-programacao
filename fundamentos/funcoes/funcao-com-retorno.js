@@ -1,14 +1,12 @@
 function sempreRetornaUm() {
-    return 1;
+    return 100;
 }
+
+
 
 function textoOuNumero(retornaTexto) {
 
-    if(retornaTexto) {
-        return "Sou um Texto";
-    }   else {
-        return 123;
-    }
+    return retornaTexto ? "Sou um Texto!" : 123;
 
 }
 
@@ -16,8 +14,8 @@ function textoOuNumero(retornaTexto) {
 let valor = sempreRetornaUm() + 999;
 console.log(valor);
 
-let resultado = textoOuNumero(ture);
-console.log(valor);
+let texto = textoOuNumero(true);
+console.log(texto);
 
-console.log(textoOuNumero)(false);
+console.log(textoOuNumero(false));
 
